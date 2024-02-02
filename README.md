@@ -1,8 +1,4 @@
 # Data Warehouse and Bisuness Intelligence
-# Header 1
-## Header 2
-### Header 3
-
 # Week 1 ดึงข้อมูลจาก .json เก็บลงฐานข้อมูล Postgres
 
 ## Create Github Account
@@ -13,7 +9,7 @@
 
 โดยในครั้งแรกให้ทำการ Create Code space ขึ้นมาก่อน และหากเราปิด code space ไปแล้วก็ยังสามารถกลับมาใช้งานได้โดยเลือกไปที่ชื่อ code space เดิม
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/00118bbe-f172-45e1-a789-83e1092ad0fb/489ccf04-ac72-4fbb-ba59-2386485baad2/Untitled.png)
+![alt text](images/WK1_01.png)
 
 สร้าง folder ขึ้นมา 2 folder ชื่อ
 
@@ -68,15 +64,15 @@ volumes:
 
 ในการรัน postgres server ขึ้นมานั้นให้ใช้คำสั่ง **docker-compose up**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/00118bbe-f172-45e1-a789-83e1092ad0fb/f2232056-ff14-49e1-8c3a-7993d6223ce6/Untitled.png)
+![alt text](images/WK1_02.png)
 
 ในการเข้า server ให้ไปที่ PORTS จากนั้นในส่วนของ port 8080 ให้กดที่ open in browser
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/00118bbe-f172-45e1-a789-83e1092ad0fb/5cca5c5c-76b8-4024-a46e-bc3f18d09413/Untitled.png)
+![alt text](images/WK1_05.png)
 
 ทำการ login ตาม user/pass ที่เรากำหนดไว้ ในที่นี้ใช้เป็น postgres
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/00118bbe-f172-45e1-a789-83e1092ad0fb/5a8f4acb-575c-4f91-884d-2a19a1260622/Untitled.png)
+![alt text](images/WK1_06.png)
 
 ## Create Table สำหรับเก็บข้อมูล
 
@@ -267,7 +263,7 @@ if __name__ == "__main__":
 
 ในการ run .py ให้ใช้ terminal อันใหม่ โดยเลือก New terminal
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/00118bbe-f172-45e1-a789-83e1092ad0fb/4d4abbd7-0dfd-4c9e-be34-4c2b943f97f3/Untitled.png)
+![alt text](images/WK1_03.png)
 
 แล้วใช้คำสั่งว่า 
 
@@ -278,4 +274,4 @@ python etl.py
 
 เมื่อรันแล้วจะได้ data ใน postgres เป็นอันเสร็จสิ้นในการ import data from json to postgres
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/00118bbe-f172-45e1-a789-83e1092ad0fb/f668b612-69ca-4300-b13d-81125e5a9ee9/Untitled.png)
+![alt text](images/WK1_04.png)
