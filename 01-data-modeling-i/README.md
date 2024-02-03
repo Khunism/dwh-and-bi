@@ -9,7 +9,7 @@
 
 โดยในครั้งแรกให้ทำการ Create Code space ขึ้นมาก่อน และหากเราปิด code space ไปแล้วก็ยังสามารถกลับมาใช้งานได้โดยเลือกไปที่ชื่อ code space เดิม
 
-![alt text](images/WK1_01.png)
+images/WK1_01.png
 
 สร้าง folder ขึ้นมา 2 folder ชื่อ
 
