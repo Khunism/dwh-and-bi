@@ -64,15 +64,15 @@ volumes:
 
 ในการรัน postgres server ขึ้นมานั้นให้ใช้คำสั่ง **docker-compose up**
 
-![alt text](images/WK1_02.png)
+![Alt text](../images/WK1_01.png)
 
 ในการเข้า server ให้ไปที่ PORTS จากนั้นในส่วนของ port 8080 ให้กดที่ open in browser
 
-![alt text](images/WK1_05.png)
+![Alt text](../images/WK1_05.png)
 
 ทำการ login ตาม user/pass ที่เรากำหนดไว้ ในที่นี้ใช้เป็น postgres
 
-![alt text](images/WK1_06.png)
+![Alt text](../images/WK1_06.png)
 
 ## Create Table สำหรับเก็บข้อมูล
 
@@ -263,7 +263,7 @@ if __name__ == "__main__":
 
 ในการ run .py ให้ใช้ terminal อันใหม่ โดยเลือก New terminal
 
-![alt text](images/WK1_03.png)
+![Alt text](../images/WK1_03.png)
 
 แล้วใช้คำสั่งว่า 
 
@@ -274,4 +274,4 @@ python etl.py
 
 เมื่อรันแล้วจะได้ data ใน postgres เป็นอันเสร็จสิ้นในการ import data from json to postgres
 
-![alt text](images/WK1_04.png)
+![Alt text](../images/WK1_04.png)
