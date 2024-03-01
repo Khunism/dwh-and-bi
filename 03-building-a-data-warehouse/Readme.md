@@ -15,8 +15,7 @@ $ cd 03-building-a-data-warehouse
 ```
 $ python -m venv env 
 ```
-![image](https://github.com/Fooklnwza007/dw-and-bi/assets/131597296/7f80f470-cd70-4206-b9b7-43f9fa07c69b)
-
+![Alt text](../images/WK3_03.png)
 
 
 
@@ -24,8 +23,7 @@ $ python -m venv env
 ```
 $ source env/bin/activate
 ```
-![image](https://github.com/Fooklnwza007/dw-and-bi/assets/131597296/ff31e8ac-0cce-42a7-94be-879a5d37e460)
-
+![Alt text](../images/WK3_02.png)
 
 
 4. Install Library ที่เกี่ยวข้องกับการใช้งาน
