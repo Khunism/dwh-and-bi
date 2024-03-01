@@ -1,6 +1,5 @@
 ## Data model
-![image](https://github.com/Fooklnwza007/dw-and-bi/assets/131597296/1b9ee674-53ad-440c-8658-0d389043fc8c)
-
+![Alt text](../images/WK3_01.png)
 
 
 <br>
