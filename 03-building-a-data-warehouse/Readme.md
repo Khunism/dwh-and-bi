@@ -30,8 +30,7 @@ $ source env/bin/activate
 ```
 $ pip install -r requirements.txt
 ```
-![image](https://github.com/Fooklnwza007/dw-and-bi/assets/131597296/465aaf0c-a82b-4518-abb1-4b53ccb113a3)
-
+![Alt text](../images/WK3_04.png)
 
 5. สร้าง Key ใน Google query เพื่อให้สามารถสร้าง Scipt python เพื่อ Google bigquery ได้
 
